@@ -1,5 +1,5 @@
 {
-  "name": "v-clipboard",
+  "name": "@qualitech/v-clipboard",
   "description": "Vue.js Clipboard Plugin",
   "version": "2.2.3",
   "author": "euvl",
@@ -12,10 +12,10 @@
   "main": "dist/index.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/euvl/v-clipboard.git"
+    "url": "https://github.com/lsshenrique/v-clipboard.git"
   },
   "bugs": {
-    "url": "https://github.com/euvl/v-clipboard/issues"
+    "url": "https://github.com/lsshenrique/v-clipboard/issues"
   },
   "keywords": [
     "vue",

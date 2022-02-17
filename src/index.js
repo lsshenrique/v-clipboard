@@ -58,8 +58,8 @@ const $clipboard = (input) => {
 
 export default {
   install(app) {
-    // Vue.prototype.$clipboard = $clipboard
-    app.config.globalProperties.$clipboard = $clipboard
+    Vue.prototype.$clipboard = $clipboard
+    // app.config.globalProperties.$clipboard = $clipboard
 
     const generateId = ((id) => () => '$' + id++)(1)
     const handlers = {}
